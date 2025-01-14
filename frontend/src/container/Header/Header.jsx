@@ -10,7 +10,7 @@ const Header = () => {
       <div className="header">
         <div className="container f_flex top">
           <div className="left top profile">
-            <h3>Ahlan wa Sahlan</h3>
+            {/* <h3>Welcome</h3> */}
             <h1>
               Halo, I’m <span>Aidan Daffa</span>
             </h1>
@@ -19,11 +19,13 @@ const Header = () => {
               <span>
                 <Typewriter
                   words={[
-                    " QA Tester.",
-                    " Web Developer.",
-                    " Mobile Developer.",
-                    " UX Designer",
-                    " Network Engineer",
+                    " QA Engineer.",
+                    " Fullstack Developer.",
+                    " AI Engineer.",
+                    " Data Engineer",
+                    " Data Analyst",
+                    " Data Scientist",
+                    " Business Intelligence",
                   ]}
                   loop
                   cursor
@@ -36,14 +38,15 @@ const Header = () => {
             </h2>
 
             <p>
-              I’m Undergraduate Student of Computer Engineering at Universitas
-              Indonesia. Untill now still excited about learn new thing.
+              I hold a Master's degree majoring in Data Engineering & Business
+              Intelligence from the University of Indonesia. Passionate about
+              learning new things and continuously expanding my knowledge.
             </p>
           </div>
 
           <div className="right">
             <div className="right_img">
-              <img src={images.profile} alt="" />
+              <img src={images.aidan} alt="" />
             </div>
           </div>
         </div>
